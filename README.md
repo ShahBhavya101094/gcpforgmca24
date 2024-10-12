@@ -1,12 +1,12 @@
 # gcpforgmca24
+
 GUJARAT TECHNOLOGICAL UNIVERSITY
-Syllabus for Master of Computer Applications, 3rdSemester
+
+Master of Computer Applications 
+
 Subject Name: Cloud Computing
+
 Subject Code: 639407
-Page no.4 of 4
-With effective
-from academic
-year 2020-21
 
 1. Develop a hello world program web application and deploy it on the Google app engine.
 
