@@ -302,9 +302,3 @@ mvn spring-boot:run
 ```
 
 ---
-
-### Conclusion
-
-This Spring Boot application integrates **Google OAuth2** for login, manages user preferences such as time zone and clock format, and displays a dynamic clock based on those preferences. The preferences are stored using **JPA**, and the clock is displayed using **Thymeleaf** templates.
-
-Users can log in with their Google accounts, update their preferences, and see their customized clock view based on their time zone and format choice.

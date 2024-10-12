@@ -262,7 +262,3 @@ entrypoint: java -Dserver.port=$PORT -jar target/task-manager-0.0.1-SNAPSHOT.jar
    ```
 
 This command will deploy your application to Google App Engine, making it accessible via the web.
-
-### Conclusion
-
-With these steps, you have built a **Task Management Application** using **Spring Boot**, JPA for persistence, and deployed it to **Google App Engine**. You’ve also integrated email reminders using **JavaMail API**. You can now scale this application easily using the managed services of Google App Engine.

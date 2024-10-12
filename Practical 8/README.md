@@ -259,7 +259,3 @@ GET /books/price?min=30&max=50
   }
 ]
 ```
-
-### Conclusion
-
-You have now integrated **JPQL** queries in the Spring Boot application for fetching books by author, title, and price range. These queries demonstrate how JPQL works with **JPA** to query **entity objects** using a SQL-like syntax but with more flexibility for object-oriented programming.

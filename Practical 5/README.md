@@ -280,7 +280,3 @@ entrypoint: java -Dserver.port=$PORT -jar target/guestbook-0.0.1-SNAPSHOT.jar
    ```
 
 This command will deploy your guestbook application to Google App Engine.
-
-### Conclusion
-
-You now have a basic **Spring Boot** application acting as a **guestbook** deployed on **Google App Engine**. Users can post messages, which are persisted using **JPA** and displayed using **Thymeleaf**. You can further enhance the application by adding validation, authentication, and more features as needed.

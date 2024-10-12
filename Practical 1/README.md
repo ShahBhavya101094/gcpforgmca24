@@ -138,7 +138,3 @@ https://[YOUR_PROJECT_ID].appspot.com/
 This will display the "Hello, World!" message in your browser.
 
 ---
-
-### Conclusion
-
-You’ve successfully created a **Hello World** web application using **Spring Boot** and deployed it to **Google App Engine**. With the Google Cloud SDK, the deployment is straightforward, and the application is accessible online via App Engine’s domain.

@@ -318,7 +318,3 @@ If you are using H2 in-memory database, you can view the H2 console at `http://l
    ```text
    Book with ID 1 has been deleted!
    ```
-
-### Conclusion
-
-You've now built a simple Spring Boot application that performs basic **CRUD** operations (create, read, update, delete) for a **Book** entity using **JPA** and **Spring Data JPA**. You can extend this with more functionality, such as validation, exception handling, or more advanced query capabilities.

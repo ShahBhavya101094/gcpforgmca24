@@ -328,9 +328,3 @@ In this case, since the salary of the second employee (`Jane Smith`) is higher t
 ```text
 Transaction failed: Simulating an error to test rollback!
 ```
-
-### Conclusion
-
-In this example, we created a Spring Boot application with an **Employee** entity, repository, service, and controller. The **transaction management** is demonstrated using Spring's `@Transactional` annotation, which ensures that multiple database operations are executed as part of a single transaction. In the case of an exception, the entire transaction is rolled back to maintain data consistency.
-
-You can expand this to include more complex business logic, validation, and advanced transaction management features such as propagation and isolation levels.

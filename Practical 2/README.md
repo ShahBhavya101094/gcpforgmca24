@@ -150,7 +150,3 @@ You can customize the format of the date and time using `DateTimeFormatter`. Som
 Feel free to change the format in the `DateTimeController` to meet your requirements.
 
 ---
-
-### Conclusion
-
-This Spring Boot application displays the current date and time in a formatted way using Thymeleaf for rendering the view. The controller fetches the current date and time using `LocalDateTime` and formats it using `DateTimeFormatter` before passing it to the view.
