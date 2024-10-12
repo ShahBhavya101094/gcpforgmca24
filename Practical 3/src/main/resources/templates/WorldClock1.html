@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>World Clock</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            text-align: center;
+            margin: 0;
+            padding: 20px;
+        }
+        header {
+            font-size: 24px;
+            font-weight: bold;
+            margin-bottom: 20px;
+        }
+        label, select, button {
+            font-size: 16px;
+            margin: 10px;
+        }
+        #timeDisplay {
+            margin-top: 20px;
+            font-size: 20px;
+            color: #333;
+        }
+    </style>
+</head>
+<body>
+
+    <header>World Clock</header>
+
+    <form id="timezoneForm">
+        <label for="timezone">Select Timezone:</label>
+        <select id="timezone" name="timezone">
+            <option value="Asia/Kolkata">IST (Indian Standard Time)</option>
+            <option value="Europe/London">Western Zone (London)</option>
+            <option value="America/New_York">Eastern Time (New York)</option>
+            <option value="Europe/Paris">Central European Time (Paris)</option>
+            <option value="Australia/Sydney">Australian Eastern Time (Sydney)</option>
+            <!-- Add more timezones as needed -->
+        </select><br/><br/>
+        <button type="submit">Submit</button>
+    </form>
+
+    <div id="timeDisplay"></div>
+
+    <script>
+        document.getElementById('timezoneForm').addEventListener('submit', function(event) {
+            event.preventDefault();
+            const timezone = document.getElementById('timezone').value;
+            const currentTime = new Date().toLocaleString('en-US', { timeZone: timezone });
+            document.getElementById('timeDisplay').innerText = `Current Time in ${timezone}: ${currentTime}`;
+        });
+    </script>
+
+</body>
+</html>
